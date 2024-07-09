@@ -9,11 +9,20 @@ export function fetchAllProducts() {
   );
 }
 
-export function fetchProductsByFilters(filter) {
+export function fetchProductsByFilters(filter,sort) {
   let queryString='';
   for(let key in filter)
   {
-    queryString+=`${key}=${filter[key]}&`;
+    const keyValue=filter[key];
+
+    if(keyValue.length>=1)
+    {
+      const lastKeyValue=keyValue[keyValue.length-1];
+      queryString+=`${key}=${lastKeyValue}&`;
+    }
+  }
+  for(let key in sort){
+    queryString+=`${key}=${sort[key]}&`;
   }
 
 
