@@ -1,8 +1,5 @@
 import React from 'react';
 import './App.css';
-import Home from './pages/Home';
-import LoginPage from './pages/LoginPage';
-import SignupPage from './pages/SignupPage';
 
 import {
   createBrowserRouter,
@@ -10,7 +7,10 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Cart from './features/cart/cart';
+
+import Home from './pages/Home';
+import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
 import ProductDetailsPage from './pages/ProductDetailsPage';
