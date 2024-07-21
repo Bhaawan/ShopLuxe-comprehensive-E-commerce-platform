@@ -6009,8 +6009,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
     }
   ],
-
-  "brands":[
+  "brands": [
     {
       "value": "Essence",
       "label": "Essence",
@@ -6170,8 +6169,7 @@
       "checked": false
     }
   ],
-
-  "categories":[
+  "categories": [
     {
       "value": "beauty",
       "label": "beauty",
@@ -6226,6 +6224,13 @@
       "value": "mobile-accessories",
       "label": "mobile accessories",
       "checked": false
+    }
+  ],
+  "users": [
+    {
+      "email": "bhaawan27@gmail.com",
+      "password": "BShri@27",
+      "id": 1
     }
   ]
 }
