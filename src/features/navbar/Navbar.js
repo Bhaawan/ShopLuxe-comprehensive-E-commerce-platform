@@ -11,6 +11,8 @@ import {
 } from '@headlessui/react'
 import { Bars3Icon, ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
+import { selectItems } from '../cart/cartSlice'
 
 const user = {
   name: 'Tom Cook',
@@ -34,6 +36,7 @@ function classNames(...classes) {
 
 
 function NavBar({children}) {
+    const items=useSelector(selectItems)
     return (
         <>
       <div className="min-h-full">
@@ -83,7 +86,7 @@ function NavBar({children}) {
                         <span className="sr-only">View notifications</span>
                         <div className="flex gap-2 items-center">
                             <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
-                            <span className="inline-flex items-center rounded-xl bg-yellow-50 px-2 py-0.5 text-xs font-medium mb-5 -ml-4 text-yellow-800 ring-1 ring-inset ring-yellow-600/20">3</span>
+                            {items.length>0 && <span className="inline-flex items-center rounded-xl bg-yellow-50 px-2 py-0.5 text-xs font-medium mb-5 -ml-4 text-yellow-800 ring-1 ring-inset ring-yellow-600/20">{items.length}</span>}
                         </div>
 
                         
@@ -178,7 +181,7 @@ function NavBar({children}) {
                         <span className="sr-only">View notifications</span>
                         <div className="flex gap-2 items-center">
                               <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
-                              <span className="inline-flex items-center rounded-xl bg-yellow-50 px-2 py-0.5 text-xs font-medium mb-5 -ml-4 text-yellow-800 ring-1 ring-inset ring-yellow-600/20">3</span>
+                              {items.length>0 && <span className="inline-flex items-center rounded-xl bg-yellow-50 px-2 py-0.5 text-xs font-medium mb-5 -ml-4 text-yellow-800 ring-1 ring-inset ring-yellow-600/20">{items.length}</span>}
                           </div>
                       </button>
                     </Link>
