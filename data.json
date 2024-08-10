@@ -6230,270 +6230,171 @@
     {
       "email": "bhaawan27@gmail.com",
       "password": "BShri@27",
+      "addresses": [
+        {
+          "name": "Bhaawan Shrivastav",
+          "email": "bhaawan27@gmail.com",
+          "phone": "9205092724",
+          "street": "210/10 Pandav road near Bheem gali",
+          "city": "Shahdara ",
+          "state": "Delhi",
+          "pinCode": "110032"
+        },
+        {
+          "name": "João",
+          "email": "teste@exemplo.us",
+          "phone": "3121286800",
+          "street": "Av. dos Andradas, 3000, Andar 2, Apartamento 1",
+          "city": "Belo Horizonte",
+          "state": "MG",
+          "pinCode": "1025478"
+        }
+      ],
       "id": 1
     },
     {
       "email": "bhaawan2706@gmail.com",
       "password": "BShri@27062002",
+      "addresses": [
+        {
+          "name": "Bhaawan Shrivastav",
+          "email": "bhaawan272002@gmail.com",
+          "phone": "9205092724",
+          "street": "210/10 pandav road near bheem gali Shahdara Delhi 110032",
+          "city": "Delhi",
+          "state": "Delhi",
+          "pinCode": "110032"
+        }
+      ],
       "id": 2
     }
   ],
   "cart": [
     {
-      "id": 99,
-      "title": "Amazon Echo Plus",
-      "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
-      "category": "mobile-accessories",
-      "price": 99.99,
-      "discountPercentage": 16.3,
-      "rating": 3.52,
-      "stock": 50,
-      "tags": [
-        "electronics",
-        "smart speakers"
-      ],
-      "brand": "Amazon",
-      "sku": "YHLK4W9V",
-      "weight": 7,
-      "dimensions": {
-        "width": 8.1,
-        "height": 7.74,
-        "depth": 5.68
-      },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Nora Mills",
-          "reviewerEmail": "nora.mills@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Fast shipping!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Ava Taylor",
-          "reviewerEmail": "ava.taylor@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Aria Flores",
-          "reviewerEmail": "aria.flores@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.624Z",
-        "updatedAt": "2024-05-23T08:56:21.624Z",
-        "barcode": "0697313083842",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/1.png",
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/2.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
-      "quantity": 1,
-      "user": 2
-    },
-    {
-      "id": 100,
-      "title": "Apple Airpods",
-      "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
-      "category": "mobile-accessories",
-      "price": 129.99,
-      "discountPercentage": 4.82,
-      "rating": 4.38,
+      "title": "Gucci Bloom Eau de",
+      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+      "category": "fragrances",
+      "price": 79.99,
+      "discountPercentage": 8.9,
+      "rating": 2.69,
       "stock": 93,
       "tags": [
-        "electronics",
-        "wireless earphones"
+        "fragrances",
+        "perfumes"
       ],
-      "brand": "Apple",
-      "sku": "H76W8TSP",
-      "weight": 3,
+      "brand": "Gucci",
+      "sku": "FFKZ6HOF",
+      "weight": 10,
       "dimensions": {
-        "width": 22.62,
-        "height": 9.92,
-        "depth": 18.15
+        "width": 22.28,
+        "height": 17.81,
+        "depth": 27.18
       },
       "warrantyInformation": "No warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Waste of money!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Aaliyah Hanson",
-          "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Waste of money!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Leah Gutierrez",
-          "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
-        },
-        {
-          "rating": 3,
-          "comment": "Not worth the price!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Jace Smith",
-          "reviewerEmail": "jace.smith@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 3,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.624Z",
-        "updatedAt": "2024-05-23T08:56:21.624Z",
-        "barcode": "3925144121840",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png",
-      "quantity": 1,
-      "user": 2
-    },
-    {
-      "id": 4,
-      "title": "Red Lipstick",
-      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
-      "category": "beauty",
-      "price": 12.99,
-      "discountPercentage": 19.03,
-      "rating": 2.51,
-      "stock": 68,
-      "tags": [
-        "beauty",
-        "lipstick"
-      ],
-      "brand": "Chic Cosmetics",
-      "sku": "O5IF1NTA",
-      "weight": 5,
-      "dimensions": {
-        "width": 14.37,
-        "height": 13.94,
-        "depth": 14.6
-      },
-      "warrantyInformation": "Lifetime warranty",
       "shippingInformation": "Ships in 2 weeks",
       "availabilityStatus": "In Stock",
       "reviews": [
         {
           "rating": 5,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Leo Rivera",
-          "reviewerEmail": "leo.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Oscar Powers",
-          "reviewerEmail": "oscar.powers@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Carter Rivera",
-          "reviewerEmail": "carter.rivera@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 6,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.619Z",
-        "updatedAt": "2024-05-23T08:56:21.619Z",
-        "barcode": "9444582199406",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
-      "quantity": 1,
-      "user": 1
-    },
-    {
-      "id": 7,
-      "title": "Chanel Coco Noir Eau De",
-      "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-      "category": "fragrances",
-      "price": 129.99,
-      "discountPercentage": 18.64,
-      "rating": 2.76,
-      "stock": 41,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Chanel",
-      "sku": "K71HBCGS",
-      "weight": 4,
-      "dimensions": {
-        "width": 21.27,
-        "height": 28,
-        "depth": 11.89
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 1,
-          "comment": "Disappointing product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Lincoln Kelly",
-          "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Lincoln Kelly",
-          "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+          "comment": "Great value for money!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Aria Parker",
+          "reviewerEmail": "aria.parker@x.dummyjson.com"
         },
         {
           "rating": 4,
           "comment": "Excellent quality!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Lucas Allen",
-          "reviewerEmail": "lucas.allen@x.dummyjson.com"
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Natalie Harris",
+          "reviewerEmail": "natalie.harris@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Fast shipping!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Ava Harris",
+          "reviewerEmail": "ava.harris@x.dummyjson.com"
         }
       ],
-      "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 5,
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 10,
       "meta": {
-        "createdAt": "2024-05-23T08:56:21.619Z",
-        "updatedAt": "2024-05-23T08:56:21.619Z",
-        "barcode": "1435582999795",
+        "createdAt": "2024-05-23T08:56:21.620Z",
+        "updatedAt": "2024-05-23T08:56:21.620Z",
+        "barcode": "8232190382069",
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
       "quantity": 1,
-      "user": 1
+      "user": 1,
+      "id": 1
     },
     {
-      "id": 78,
+      "title": "Soft Drinks",
+      "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+      "category": "groceries",
+      "price": 1.99,
+      "discountPercentage": 1.88,
+      "rating": 4.59,
+      "stock": 78,
+      "tags": [
+        "beverages"
+      ],
+      "sku": "I1ZNSLXJ",
+      "weight": 9,
+      "dimensions": {
+        "width": 15.73,
+        "height": 24.93,
+        "depth": 27.19
+      },
+      "warrantyInformation": "1 year warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 3,
+          "comment": "Very dissatisfied!",
+          "date": "2024-05-23T08:56:21.621Z",
+          "reviewerName": "Ella Cook",
+          "reviewerEmail": "ella.cook@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Highly impressed!",
+          "date": "2024-05-23T08:56:21.621Z",
+          "reviewerName": "Liam Garcia",
+          "reviewerEmail": "liam.garcia@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Awesome product!",
+          "date": "2024-05-23T08:56:21.621Z",
+          "reviewerName": "Autumn Gomez",
+          "reviewerEmail": "autumn.gomez@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 41,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.621Z",
+        "updatedAt": "2024-05-23T08:56:21.621Z",
+        "barcode": "3523564932164",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Soft%20Drinks/1.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Soft%20Drinks/thumbnail.png",
+      "quantity": 1,
+      "user": 1,
+      "id": 2
+    },
+    {
       "title": "Apple MacBook Pro 14 Inch Space Grey",
       "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
       "category": "laptops",
@@ -6554,7 +6455,388 @@
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
       "quantity": 1,
-      "user": 1
+      "user": 2,
+      "id": 3
+    },
+    {
+      "title": "Rolex Cellini Moonphase",
+      "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+      "category": "mens-watches",
+      "price": 12999.99,
+      "discountPercentage": 5.7,
+      "rating": 4.52,
+      "stock": 33,
+      "tags": [
+        "watches",
+        "luxury watches"
+      ],
+      "brand": "Rolex",
+      "sku": "LUZDIKKR",
+      "weight": 5,
+      "dimensions": {
+        "width": 28.07,
+        "height": 13.43,
+        "depth": 10.81
+      },
+      "warrantyInformation": "3 year warranty",
+      "shippingInformation": "Ships overnight",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Very happy with my purchase!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Sophia Jones",
+          "reviewerEmail": "sophia.jones@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Jacob Cooper",
+          "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Elijah Cruz",
+          "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.624Z",
+        "updatedAt": "2024-05-23T08:56:21.624Z",
+        "barcode": "0330714338454",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/1.png",
+        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/2.png",
+        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/3.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png",
+      "quantity": 1,
+      "user": 2,
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "title": "Apple MacBook Pro 14 Inch Space Grey",
+          "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+          "category": "laptops",
+          "price": 1999.99,
+          "discountPercentage": 9.25,
+          "rating": 3.13,
+          "stock": 39,
+          "tags": [
+            "laptops",
+            "apple"
+          ],
+          "brand": "Apple",
+          "sku": "QDKO6NRJ",
+          "weight": 4,
+          "dimensions": {
+            "width": 12.38,
+            "height": 21.55,
+            "depth": 27.95
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Hunter Gordon",
+              "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Emma Wilson",
+              "reviewerEmail": "emma.wilson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "David Martinez",
+              "reviewerEmail": "david.martinez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "3883623063065",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 3
+        },
+        {
+          "title": "Rolex Cellini Moonphase",
+          "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+          "category": "mens-watches",
+          "price": 12999.99,
+          "discountPercentage": 5.7,
+          "rating": 4.52,
+          "stock": 33,
+          "tags": [
+            "watches",
+            "luxury watches"
+          ],
+          "brand": "Rolex",
+          "sku": "LUZDIKKR",
+          "weight": 5,
+          "dimensions": {
+            "width": 28.07,
+            "height": 13.43,
+            "depth": 10.81
+          },
+          "warrantyInformation": "3 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Sophia Jones",
+              "reviewerEmail": "sophia.jones@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jacob Cooper",
+              "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Elijah Cruz",
+              "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "0330714338454",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 4
+        }
+      ],
+      "totalAmount": 14999.98,
+      "totalItems": 2,
+      "user": {
+        "email": "bhaawan2706@gmail.com",
+        "password": "BShri@27062002",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan272002@gmail.com",
+            "phone": "9205092724",
+            "street": "210/10 pandav road near bheem gali Shahdara Delhi 110032",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": null,
+      "selectedAddress": null,
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "Apple MacBook Pro 14 Inch Space Grey",
+          "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+          "category": "laptops",
+          "price": 1999.99,
+          "discountPercentage": 9.25,
+          "rating": 3.13,
+          "stock": 39,
+          "tags": [
+            "laptops",
+            "apple"
+          ],
+          "brand": "Apple",
+          "sku": "QDKO6NRJ",
+          "weight": 4,
+          "dimensions": {
+            "width": 12.38,
+            "height": 21.55,
+            "depth": 27.95
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Hunter Gordon",
+              "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Emma Wilson",
+              "reviewerEmail": "emma.wilson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "David Martinez",
+              "reviewerEmail": "david.martinez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "3883623063065",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 3
+        },
+        {
+          "title": "Rolex Cellini Moonphase",
+          "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+          "category": "mens-watches",
+          "price": 12999.99,
+          "discountPercentage": 5.7,
+          "rating": 4.52,
+          "stock": 33,
+          "tags": [
+            "watches",
+            "luxury watches"
+          ],
+          "brand": "Rolex",
+          "sku": "LUZDIKKR",
+          "weight": 5,
+          "dimensions": {
+            "width": 28.07,
+            "height": 13.43,
+            "depth": 10.81
+          },
+          "warrantyInformation": "3 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Sophia Jones",
+              "reviewerEmail": "sophia.jones@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jacob Cooper",
+              "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Elijah Cruz",
+              "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "0330714338454",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 4
+        }
+      ],
+      "totalAmount": 14999.98,
+      "totalItems": 2,
+      "user": {
+        "email": "bhaawan2706@gmail.com",
+        "password": "BShri@27062002",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan272002@gmail.com",
+            "phone": "9205092724",
+            "street": "210/10 pandav road near bheem gali Shahdara Delhi 110032",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan272002@gmail.com",
+        "phone": "9205092724",
+        "street": "210/10 pandav road near bheem gali Shahdara Delhi 110032",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "id": 2
     }
   ]
 }

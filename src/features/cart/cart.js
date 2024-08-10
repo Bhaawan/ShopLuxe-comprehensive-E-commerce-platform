@@ -15,9 +15,10 @@ import { Link } from 'react-router-dom';
 
 
 export default function Cart() {
-  const count = useSelector(selectItems);
   const dispatch = useDispatch();
   const [open, setOpen] = useState(true);
+  
+  const count = useSelector(selectItems);
   const items=useSelector(selectItems);
   const totalAmount = items.reduce((amount, item) => item.price * item.quantity + amount,0);
   const totalItems = items.reduce((total, item) => item.quantity + total, 0);
