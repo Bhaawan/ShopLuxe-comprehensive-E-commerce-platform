@@ -33,7 +33,8 @@ export default function Cart() {
 
   return (
     <>
-      {items.length>0 && <div class="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {items.length>0 && 
+      <div class="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Cart</h1>
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
             <div className="flow-root">
@@ -119,7 +120,8 @@ export default function Cart() {
           </div>
         </div>
       </div>}
-      {items.length===0 && <div class="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      
+      {items.length===0 && <div className="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Cart</h1>
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
           <h3 className="text-2xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Your cart is empty, let's fix that 🛒🛒🛒</h3>

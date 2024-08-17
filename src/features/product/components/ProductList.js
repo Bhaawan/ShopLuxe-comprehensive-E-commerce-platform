@@ -333,7 +333,7 @@ function DesktopFilter({filters,handleFilter}){
                         <DisclosurePanel className="pt-6">
                           <div className="space-y-4">
                             {section.options.map((option, optionIdx) => (
-                              <div key={option.value} className="flex items-center">
+                              <div key={optionIdx} className="flex items-center">
                                 <input
                                   id={`filter-${section.id}-${optionIdx}`}
                                   name={`${section.id}[]`}
@@ -402,6 +402,7 @@ function Pagination({page,setpage,handlePage,totalItems=100}){
               <div
               onClick={e=>handlePage(index+1)}
               aria-current="page"
+              key={index}
               className={`relative z-10 cursor-pointer border-gray-400 inline-flex items-center ${index+1===page? 'bg-indigo-600 text-white':'text-gray-400'}  px-4 py-2 text-sm font-semibold  focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
               >
               {index+1}
