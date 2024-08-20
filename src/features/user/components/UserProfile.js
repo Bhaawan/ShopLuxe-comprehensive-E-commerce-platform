@@ -50,6 +50,7 @@ export default function UserProfile() {
         <div className="bg-blue-200 rounded-md mt-5 mb-10 mx-1 max-w-9xl px-4 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Name: {user.name? user.name:"guest user"}</h1>
             <h3 className="text-1xl capitalize font-semibold tracking-tight text-gray-900 pt-0 pb-3">Email address: {user.email}</h3>
+            {user.role==='admin'&&<h3 className="text-1xl uppercase font-semibold tracking-tight text-gray-900 pt-0 pb-3">{user.role}</h3>}
 
             <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
               

@@ -3,11 +3,11 @@
     {
       "id": 1,
       "title": "Essence Mascara Lash Princess",
-      "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+      "description": "The Essence Mascara Lash Princess is a popular mascara ",
       "category": "beauty",
-      "price": 9.99,
+      "price": 244,
       "discountPercentage": 7.17,
-      "rating": 4.94,
+      "rating": 0,
       "stock": 5,
       "tags": [
         "beauty",
@@ -56,17 +56,21 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        null,
+        null,
+        null,
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
     },
     {
       "id": 2,
       "title": "Eyeshadow Palette with Mirror",
-      "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+      "description": "The Eyeshadow Palette with Mirror offers a versatile range ",
       "category": "beauty",
-      "price": 19.99,
-      "discountPercentage": 5.5,
+      "price": 24,
+      "discountPercentage": 10,
       "rating": 3.28,
       "stock": 44,
       "tags": [
@@ -116,7 +120,11 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+        null,
+        null,
+        null,
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
     },
@@ -125,7 +133,7 @@
       "title": "Powder Canister",
       "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
       "category": "beauty",
-      "price": 14.99,
+      "price": 23,
       "discountPercentage": 18.14,
       "rating": 3.82,
       "stock": 59,
@@ -176,7 +184,11 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+        null,
+        null,
+        null,
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
     },
@@ -551,12 +563,12 @@
     {
       "id": 10,
       "title": "Gucci Bloom Eau de",
-      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, ",
       "category": "fragrances",
-      "price": 79.99,
+      "price": 150,
       "discountPercentage": 8.9,
-      "rating": 2.69,
-      "stock": 93,
+      "rating": 0,
+      "stock": 290,
       "tags": [
         "fragrances",
         "perfumes"
@@ -606,7 +618,9 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png",
+        null,
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
     },
@@ -6004,9 +6018,31 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
         "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png",
+        null,
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png",
+      "deleted": true
+    },
+    {
+      "title": "Iphone 15 pro max",
+      "description": "The iPhone 15 Pro Max continues Apple's tradition of blending cutting-edge technology with sleek design. Boasting an advanced A-series chip, it delivers exceptional performance for multitasking and gaming. Its ProMotion display offers smooth visuals with a high refresh rate, enhancing the user experience. With upgraded camera capabilities, including improved low-light performance and enhanced AI features, the iPhone 15 Pro Max excels in photography and videography. Coupled with robust privacy features and seamless integration into the Apple ecosystem, it remains a flagship choice for tech enthusiasts and professionals alike.",
+      "brand": "Apple",
+      "category": "mobile-accessories",
+      "price": 1198,
+      "discountPercentage": 10,
+      "stock": 500,
+      "thumbnail": "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png",
+      "images": [
+        "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y2M5UUd3NUJVdW5OMUNOMjFyT1RkZXNCckZqMTMrS3dIUWFPL2dFWXJDTmhNQnJMcnc4RkxJd3ZMc3hKZVVFWHNwNzhIV3RIcEtrYjFHS3JmbVgvSHd3QnNYazlmUFIyeEQ5RTVSV0VOSlRRPT0=&traceId=1",
+        "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV2_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZWhiVkZ3cFQ0bXNyZW80MmluSGh6SlZDdmZSWVo0Mkw3Sys0M0szVURzN3dDb1F2RTNvUEVHRkpGaGtOSVFHak1BVzRkYUlmdElTYk5KZFpJVWpSSndTU2QzTVV5a1JqR2hqVkR2MUVrT1JBPT0=&traceId=1",
+        "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV4?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y0VobEhDb3BJbE5TVi9ONmdTMDczWGxjZnhHRHJyenVmME5KTm9Sd1ZaU2hpQnMxbm94Rm1tUTd1RDVsQXdjSzNVK29Kb3N1LytiZ3pnblIramJEM0RoNG5zaDVpV0hVYUV5eVFvejlsM2J3PT0=&traceId=1",
+        "https://i.gadgets360cdn.com/large/iphone_14_pro_gold_1683696510783.jpg?downsize=950:*",
+        "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png"
+      ],
+      "rating": 0,
+      "id": 101
     }
   ],
   "brands": [
@@ -6078,9 +6114,6 @@
     {
       "value": "Bath Trends",
       "label": "Bath Trends",
-      "checked": false
-    },
-    {
       "checked": false
     },
     {
@@ -6230,6 +6263,7 @@
     {
       "email": "bhaawan27@gmail.com",
       "password": "BShri@27",
+      "role": "user",
       "addresses": [
         {
           "name": "Bhaawan Shrivastav",
@@ -6251,6 +6285,13 @@
         }
       ],
       "id": 1
+    },
+    {
+      "email": "admin27@gmail.com",
+      "password": "BShri@27062002",
+      "addresses": [],
+      "role": "admin",
+      "id": 2
     }
   ],
   "cart": [],
