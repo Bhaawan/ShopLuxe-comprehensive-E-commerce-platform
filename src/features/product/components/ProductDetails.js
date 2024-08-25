@@ -3,9 +3,10 @@ import { StarIcon } from '@heroicons/react/20/solid'
 import { Radio, RadioGroup } from '@headlessui/react'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProductByIdAsync, selectProductById } from '../ProductSlice.js'
-import { useParams } from 'react-router-dom';
-import { addToCartAsync } from '../../cart/cartSlice.js';
+import { Link, useParams } from 'react-router-dom';
+import { addToCartAsync, selectItems } from '../../cart/cartSlice.js';
 import { selectLoggedInUser } from '../../auth/authSlice.js';
+import { discountedPrice } from '../../../app/constants.js';
 
 const colors=[
     { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400' },
@@ -34,6 +35,7 @@ export default function ProductDetails() {
   const [selectedColor, setSelectedColor] = useState(colors[0])
   const [selectedSize, setSelectedSize] = useState(sizes[2])
   const product=useSelector(selectProductById);
+  const items=useSelector(selectItems);
   const user=useSelector(selectLoggedInUser)
   const dispatch=useDispatch();
   const params=useParams();
@@ -44,9 +46,15 @@ export default function ProductDetails() {
 
   const handleCart=(e)=>{
     e.preventDefault();
-    const newItem={...product,quantity:1,user:user.id};
-    delete newItem['id'];
-    dispatch(addToCartAsync(newItem))
+
+    if(items.findIndex(item=>item.productId===product.id)<0){
+      const newItem={...product, productId:product.id,quantity:1,user:user.id};
+      delete newItem['id'];
+      dispatch(addToCartAsync(newItem))
+    }
+    else{
+      console.log("Already added");
+    }
   }
 
   return (
@@ -124,7 +132,7 @@ export default function ProductDetails() {
           {/* Options */}
           <div className="mt-4 lg:row-span-3 lg:mt-0">
             <h2 className="sr-only">Product information</h2>
-            <p className="text-3xl tracking-tight text-gray-900">{product.price}</p>
+            <p className="text-3xl tracking-tight text-gray-900">{discountedPrice(product)}</p>
 
             {/* Reviews */}
             <div className="mt-6">
@@ -245,13 +253,23 @@ export default function ProductDetails() {
                 </fieldset>
               </div>
 
-              <button
+              {
+                items.findIndex(item=>item.productId===product.id)<0 ? 
+                (<button
                 onClick={handleCart}
                 type="submit"
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-              >
+                >
                 Add to bag
-              </button>
+                </button>):
+                (<Link to='/cart'>
+                  <button
+                  className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-400 px-8 py-3 text-base font-medium text-black hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2"
+                  >
+                  Go to Cart
+                  </button>
+                </Link>)
+              }
             </form>
           </div>
 

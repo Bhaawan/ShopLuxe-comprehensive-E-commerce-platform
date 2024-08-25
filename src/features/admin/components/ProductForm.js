@@ -1,6 +1,6 @@
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { useDispatch, useSelector } from 'react-redux';
-import { clearSelectedProduct, createProductAsync, fetchProductByIdAsync, selectAllBrands, selectAllCategories, selectProductById, updateProductAsync } from '../../product/ProductSlice';
+import { clearSelectedProduct, createProductAsync, fetchProductByIdAsync, selectAllBrands, selectAllCategories, selectProductById, selectTotalItems, updateProductAsync } from '../../product/ProductSlice';
 import { useForm } from 'react-hook-form';
 import { checkUserAsync } from '../../auth/authSlice';
 import { Link, useNavigate, useParams } from 'react-router-dom';
@@ -17,6 +17,7 @@ function ProductForm() {
     const params=useParams();
     const selectedProduct=useSelector(selectProductById)
     const navigate=useNavigate();
+    const totalItems=useSelector(selectTotalItems);
 
     useEffect(()=>{
         if(params.id)
@@ -31,7 +32,7 @@ function ProductForm() {
 
     useEffect(()=>{
         if(selectedProduct && params.id)
-        {
+        {    
             setValue('title',selectedProduct.title);
             setValue('description',selectedProduct.description);
             setValue('price',selectedProduct.price);
@@ -44,7 +45,6 @@ function ProductForm() {
             setValue('image4',selectedProduct.images[3]);
             setValue('brand',selectedProduct.brand);
             setValue('category',selectedProduct.category);
-
         }
     },[selectedProduct, params.id, setValue])
 

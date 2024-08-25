@@ -62,7 +62,8 @@
         null,
         "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+      "deleted": false
     },
     {
       "id": 2,
@@ -5968,7 +5969,7 @@
       "price": 129.99,
       "discountPercentage": 4.82,
       "rating": 4.38,
-      "stock": 93,
+      "stock": 0,
       "tags": [
         "electronics",
         "wireless earphones"
@@ -6023,7 +6024,7 @@
         "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png",
-      "deleted": true
+      "deleted": false
     },
     {
       "title": "Iphone 15 pro max",
@@ -6266,15 +6267,6 @@
       "role": "user",
       "addresses": [
         {
-          "name": "Bhaawan Shrivastav",
-          "email": "bhaawan27@gmail.com",
-          "city": "Shahdara",
-          "state": "Delhi",
-          "phone": "9891254641",
-          "street": "210/10 3rd floor, Pandav road, near Bheem gali",
-          "pinCode": "110032"
-        },
-        {
           "name": "Tejas",
           "email": "nimTejas@gmail.com",
           "phone": "222514831",
@@ -6282,6 +6274,15 @@
           "city": "Mumbai",
           "state": "Maharashtra",
           "pinCode": "400086"
+        },
+        {
+          "name": "Bhaawan Shrivastav",
+          "email": "bhaawan27@gmail.com",
+          "phone": "09205092724",
+          "street": "210/10 3rd floor Pandav road near Bheem lane",
+          "city": "Shahdara",
+          "state": "Delhi",
+          "pinCode": "110032"
         }
       ],
       "id": 1
@@ -6735,6 +6736,1882 @@
       },
       "status": "pending",
       "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "Huawei Matebook X Pro",
+          "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+          "category": "laptops",
+          "price": 1399.99,
+          "discountPercentage": 15.25,
+          "rating": 4.62,
+          "stock": 34,
+          "tags": [
+            "laptops"
+          ],
+          "brand": "Huawei",
+          "sku": "U2CBNNB0",
+          "weight": 9,
+          "dimensions": {
+            "width": 22.11,
+            "height": 11.11,
+            "depth": 23.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Samantha Howard",
+              "reviewerEmail": "samantha.howard@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Would not buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Daniel Cook",
+              "reviewerEmail": "daniel.cook@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Brayden Fleming",
+              "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "1232723732298",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Huawei%20Matebook%20X%20Pro/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Huawei%20Matebook%20X%20Pro/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Huawei%20Matebook%20X%20Pro/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Huawei%20Matebook%20X%20Pro/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Iphone 15 pro max",
+          "description": "The iPhone 15 Pro Max continues Apple's tradition of blending cutting-edge technology with sleek design. Boasting an advanced A-series chip, it delivers exceptional performance for multitasking and gaming. Its ProMotion display offers smooth visuals with a high refresh rate, enhancing the user experience. With upgraded camera capabilities, including improved low-light performance and enhanced AI features, the iPhone 15 Pro Max excels in photography and videography. Coupled with robust privacy features and seamless integration into the Apple ecosystem, it remains a flagship choice for tech enthusiasts and professionals alike.",
+          "brand": "Apple",
+          "category": "mobile-accessories",
+          "price": 1198,
+          "discountPercentage": 10,
+          "stock": 500,
+          "thumbnail": "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png",
+          "images": [
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y2M5UUd3NUJVdW5OMUNOMjFyT1RkZXNCckZqMTMrS3dIUWFPL2dFWXJDTmhNQnJMcnc4RkxJd3ZMc3hKZVVFWHNwNzhIV3RIcEtrYjFHS3JmbVgvSHd3QnNYazlmUFIyeEQ5RTVSV0VOSlRRPT0=&traceId=1",
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV2_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZWhiVkZ3cFQ0bXNyZW80MmluSGh6SlZDdmZSWVo0Mkw3Sys0M0szVURzN3dDb1F2RTNvUEVHRkpGaGtOSVFHak1BVzRkYUlmdElTYk5KZFpJVWpSSndTU2QzTVV5a1JqR2hqVkR2MUVrT1JBPT0=&traceId=1",
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV4?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y0VobEhDb3BJbE5TVi9ONmdTMDczWGxjZnhHRHJyenVmME5KTm9Sd1ZaU2hpQnMxbm94Rm1tUTd1RDVsQXdjSzNVK29Kb3N1LytiZ3pnblIramJEM0RoNG5zaDVpV0hVYUV5eVFvejlsM2J3PT0=&traceId=1",
+            "https://i.gadgets360cdn.com/large/iphone_14_pro_gold_1683696510783.jpg?downsize=950:*",
+            "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png"
+          ],
+          "rating": 0,
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        },
+        {
+          "title": "Knoll Saarinen Executive Conference Chair",
+          "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+          "category": "furniture",
+          "price": 499.99,
+          "discountPercentage": 15.23,
+          "rating": 4.11,
+          "stock": 47,
+          "tags": [
+            "furniture",
+            "office chairs"
+          ],
+          "brand": "Knoll",
+          "sku": "RKHVJ4FE",
+          "weight": 3,
+          "dimensions": {
+            "width": 16.59,
+            "height": 21.46,
+            "depth": 29.07
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Leah Gutierrez",
+              "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Nolan Gonzalez",
+              "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Stella Morris",
+              "reviewerEmail": "stella.morris@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 5,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "0726316339746",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/thumbnail.png",
+          "quantity": 2,
+          "user": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 3597.97,
+      "totalItems": 4,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "phone": "09205092724",
+        "street": "210/10 3rd floor Pandav road near Bheem lane",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "Microwave Oven",
+          "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+          "category": "kitchen-accessories",
+          "price": 89.99,
+          "discountPercentage": 18.73,
+          "rating": 2.71,
+          "stock": 27,
+          "tags": [
+            "kitchen appliances",
+            "microwaves"
+          ],
+          "sku": "7CERPRRE",
+          "weight": 8,
+          "dimensions": {
+            "width": 9.61,
+            "height": 25.64,
+            "depth": 12.31
+          },
+          "warrantyInformation": "6 months warranty",
+          "shippingInformation": "Ships in 1 month",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Ava Harrison",
+              "reviewerEmail": "ava.harrison@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Liam Gonzalez",
+              "reviewerEmail": "liam.gonzalez@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Awesome product!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Avery Carter",
+              "reviewerEmail": "avery.carter@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 8,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "4567190151518",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Microwave%20Oven/1.png",
+            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Microwave%20Oven/2.png",
+            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Microwave%20Oven/3.png",
+            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Microwave%20Oven/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Microwave%20Oven/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 73.13,
+      "totalItems": 1,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "phone": "09205092724",
+        "street": "210/10 3rd floor Pandav road near Bheem lane",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "Table Lamp",
+          "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+          "category": "home-decoration",
+          "price": 49.99,
+          "discountPercentage": 0.59,
+          "rating": 4.56,
+          "stock": 84,
+          "tags": [
+            "home decor",
+            "lighting"
+          ],
+          "sku": "0K9UDIUB",
+          "weight": 2,
+          "dimensions": {
+            "width": 29.6,
+            "height": 19.68,
+            "depth": 10.12
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.621Z",
+              "reviewerName": "Mateo Nguyen",
+              "reviewerEmail": "mateo.nguyen@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.621Z",
+              "reviewerName": "James Garcia",
+              "reviewerEmail": "james.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.621Z",
+              "reviewerName": "Henry Turner",
+              "reviewerEmail": "henry.turner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 10,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.621Z",
+            "updatedAt": "2024-05-23T08:56:21.621Z",
+            "barcode": "7764806947768",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Pan",
+          "description": "The Pan is a versatile and essential cookware item for frying, sautéing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+          "category": "kitchen-accessories",
+          "price": 24.99,
+          "discountPercentage": 6.55,
+          "rating": 3.4,
+          "stock": 40,
+          "tags": [
+            "cookware",
+            "pans"
+          ],
+          "sku": "3E1WZOKX",
+          "weight": 7,
+          "dimensions": {
+            "width": 19.51,
+            "height": 17.96,
+            "depth": 23.24
+          },
+          "warrantyInformation": "3 months warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Chloe Morales",
+              "reviewerEmail": "chloe.morales@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Max Russell",
+              "reviewerEmail": "max.russell@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 8,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "8562045288370",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Pan/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Pan/thumbnail.png",
+          "quantity": 2,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 96.4,
+      "totalItems": 3,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "phone": "09205092724",
+        "street": "210/10 3rd floor Pandav road near Bheem lane",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "Lenovo Yoga 920",
+          "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+          "category": "laptops",
+          "price": 1099.99,
+          "discountPercentage": 7.77,
+          "rating": 2.98,
+          "stock": 71,
+          "tags": [
+            "laptops"
+          ],
+          "brand": "Lenovo",
+          "sku": "MST9WZQY",
+          "weight": 7,
+          "dimensions": {
+            "width": 11.02,
+            "height": 14.45,
+            "depth": 24.09
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Paisley Bell",
+              "reviewerEmail": "paisley.bell@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Lincoln Kelly",
+              "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Luna Russell",
+              "reviewerEmail": "luna.russell@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "9590995785298",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Lenovo%20Yoga%20920/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Lenovo%20Yoga%20920/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Lenovo%20Yoga%20920/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Lenovo%20Yoga%20920/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1014.52,
+      "totalItems": 1,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Tejas",
+        "email": "nimTejas@gmail.com",
+        "phone": "222514831",
+        "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pinCode": "400086"
+      },
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "Longines Master Collection",
+          "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+          "category": "mens-watches",
+          "price": 1499.99,
+          "discountPercentage": 0.64,
+          "rating": 2.64,
+          "stock": 65,
+          "tags": [
+            "watches",
+            "luxury watches"
+          ],
+          "brand": "Longines",
+          "sku": "LA7B9XEV",
+          "weight": 2,
+          "dimensions": {
+            "width": 5.83,
+            "height": 12.48,
+            "depth": 7.65
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jack Ward",
+              "reviewerEmail": "jack.ward@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Victoria McDonald",
+              "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Mia Rodriguez",
+              "reviewerEmail": "mia.rodriguez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "1865008250672",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Longines%20Master%20Collection/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1490.39,
+      "totalItems": 1,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Tejas",
+        "email": "nimTejas@gmail.com",
+        "phone": "222514831",
+        "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pinCode": "400086"
+      },
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "Nike Baseball Cleats",
+          "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+          "category": "mens-shoes",
+          "price": 79.99,
+          "discountPercentage": 11.4,
+          "rating": 4.01,
+          "stock": 14,
+          "tags": [
+            "footwear",
+            "sports cleats"
+          ],
+          "brand": "Nike",
+          "sku": "81LRTRP5",
+          "weight": 7,
+          "dimensions": {
+            "width": 14.83,
+            "height": 19.16,
+            "depth": 28.98
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "William Gonzalez",
+              "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Gabriel Mitchell",
+              "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 3,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "0517654748946",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Dolce Shine Eau de",
+          "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+          "category": "fragrances",
+          "price": 69.99,
+          "discountPercentage": 11.47,
+          "rating": 2.68,
+          "stock": 3,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Dolce & Gabbana",
+          "sku": "1NBFK980",
+          "weight": 5,
+          "dimensions": {
+            "width": 17,
+            "height": 24.57,
+            "depth": 13.3
+          },
+          "warrantyInformation": "5 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "Low Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Xavier Wright",
+              "reviewerEmail": "xavier.wright@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Mila Hernandez",
+              "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 9,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "1939383392674",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 132.83,
+      "totalItems": 2,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Tejas",
+        "email": "nimTejas@gmail.com",
+        "phone": "222514831",
+        "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pinCode": "400086"
+      },
+      "status": "pending",
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "title": "Blue & Black Check Shirt",
+          "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+          "category": "mens-shirts",
+          "price": 29.99,
+          "discountPercentage": 1.41,
+          "rating": 4.19,
+          "stock": 44,
+          "tags": [
+            "clothing",
+            "men's shirts"
+          ],
+          "brand": "Fashion Trends",
+          "sku": "6RJDTVCU",
+          "weight": 6,
+          "dimensions": {
+            "width": 17.25,
+            "height": 27.31,
+            "depth": 20.88
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 1 month",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Mason Parker",
+              "reviewerEmail": "mason.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Avery Perez",
+              "reviewerEmail": "avery.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Nathan Reed",
+              "reviewerEmail": "nathan.reed@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 4,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "8840720880947",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png",
+          "quantity": 3,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Gigabyte Aorus Men Tshirt",
+          "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+          "category": "mens-shirts",
+          "price": 24.99,
+          "discountPercentage": 12.6,
+          "rating": 4.95,
+          "stock": 64,
+          "tags": [
+            "clothing",
+            "men's t-shirts"
+          ],
+          "brand": "Gigabyte",
+          "sku": "QA703Y60",
+          "weight": 2,
+          "dimensions": {
+            "width": 8.54,
+            "height": 23.52,
+            "depth": 5.66
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Logan Lawson",
+              "reviewerEmail": "logan.lawson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Logan Lawson",
+              "reviewerEmail": "logan.lawson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 4,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "3072645939073",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/thumbnail.png",
+          "quantity": 2,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 132.39000000000001,
+      "totalItems": 5,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "phone": "09205092724",
+        "street": "210/10 3rd floor Pandav road near Bheem lane",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 10
+    },
+    {
+      "items": [
+        {
+          "title": "Amazon Echo Plus",
+          "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+          "category": "mobile-accessories",
+          "price": 99.99,
+          "discountPercentage": 16.3,
+          "rating": 3.52,
+          "stock": 50,
+          "tags": [
+            "electronics",
+            "smart speakers"
+          ],
+          "brand": "Amazon",
+          "sku": "YHLK4W9V",
+          "weight": 7,
+          "dimensions": {
+            "width": 8.1,
+            "height": 7.74,
+            "depth": 5.68
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Nora Mills",
+              "reviewerEmail": "nora.mills@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Ava Taylor",
+              "reviewerEmail": "ava.taylor@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Aria Flores",
+              "reviewerEmail": "aria.flores@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "0697313083842",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/1.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/2.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Iphone 15 pro max",
+          "description": "The iPhone 15 Pro Max continues Apple's tradition of blending cutting-edge technology with sleek design. Boasting an advanced A-series chip, it delivers exceptional performance for multitasking and gaming. Its ProMotion display offers smooth visuals with a high refresh rate, enhancing the user experience. With upgraded camera capabilities, including improved low-light performance and enhanced AI features, the iPhone 15 Pro Max excels in photography and videography. Coupled with robust privacy features and seamless integration into the Apple ecosystem, it remains a flagship choice for tech enthusiasts and professionals alike.",
+          "brand": "Apple",
+          "category": "mobile-accessories",
+          "price": 1198,
+          "discountPercentage": 10,
+          "stock": 500,
+          "thumbnail": "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png",
+          "images": [
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y2M5UUd3NUJVdW5OMUNOMjFyT1RkZXNCckZqMTMrS3dIUWFPL2dFWXJDTmhNQnJMcnc4RkxJd3ZMc3hKZVVFWHNwNzhIV3RIcEtrYjFHS3JmbVgvSHd3QnNYazlmUFIyeEQ5RTVSV0VOSlRRPT0=&traceId=1",
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV2_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZWhiVkZ3cFQ0bXNyZW80MmluSGh6SlZDdmZSWVo0Mkw3Sys0M0szVURzN3dDb1F2RTNvUEVHRkpGaGtOSVFHak1BVzRkYUlmdElTYk5KZFpJVWpSSndTU2QzTVV5a1JqR2hqVkR2MUVrT1JBPT0=&traceId=1",
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV4?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y0VobEhDb3BJbE5TVi9ONmdTMDczWGxjZnhHRHJyenVmME5KTm9Sd1ZaU2hpQnMxbm94Rm1tUTd1RDVsQXdjSzNVK29Kb3N1LytiZ3pnblIramJEM0RoNG5zaDVpV0hVYUV5eVFvejlsM2J3PT0=&traceId=1",
+            "https://i.gadgets360cdn.com/large/iphone_14_pro_gold_1683696510783.jpg?downsize=950:*",
+            "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png"
+          ],
+          "rating": 0,
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 1161.89,
+      "totalItems": 2,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "phone": "09205092724",
+        "street": "210/10 3rd floor Pandav road near Bheem lane",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 11
+    },
+    {
+      "items": [
+        {
+          "title": "Amazon Echo Plus",
+          "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+          "category": "mobile-accessories",
+          "price": 99.99,
+          "discountPercentage": 16.3,
+          "rating": 3.52,
+          "stock": 50,
+          "tags": [
+            "electronics",
+            "smart speakers"
+          ],
+          "brand": "Amazon",
+          "sku": "YHLK4W9V",
+          "weight": 7,
+          "dimensions": {
+            "width": 8.1,
+            "height": 7.74,
+            "depth": 5.68
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Nora Mills",
+              "reviewerEmail": "nora.mills@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Ava Taylor",
+              "reviewerEmail": "ava.taylor@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Aria Flores",
+              "reviewerEmail": "aria.flores@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "0697313083842",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/1.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/2.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Iphone 15 pro max",
+          "description": "The iPhone 15 Pro Max continues Apple's tradition of blending cutting-edge technology with sleek design. Boasting an advanced A-series chip, it delivers exceptional performance for multitasking and gaming. Its ProMotion display offers smooth visuals with a high refresh rate, enhancing the user experience. With upgraded camera capabilities, including improved low-light performance and enhanced AI features, the iPhone 15 Pro Max excels in photography and videography. Coupled with robust privacy features and seamless integration into the Apple ecosystem, it remains a flagship choice for tech enthusiasts and professionals alike.",
+          "brand": "Apple",
+          "category": "mobile-accessories",
+          "price": 1198,
+          "discountPercentage": 10,
+          "stock": 500,
+          "thumbnail": "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png",
+          "images": [
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y2M5UUd3NUJVdW5OMUNOMjFyT1RkZXNCckZqMTMrS3dIUWFPL2dFWXJDTmhNQnJMcnc4RkxJd3ZMc3hKZVVFWHNwNzhIV3RIcEtrYjFHS3JmbVgvSHd3QnNYazlmUFIyeEQ5RTVSV0VOSlRRPT0=&traceId=1",
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV2_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZWhiVkZ3cFQ0bXNyZW80MmluSGh6SlZDdmZSWVo0Mkw3Sys0M0szVURzN3dDb1F2RTNvUEVHRkpGaGtOSVFHak1BVzRkYUlmdElTYk5KZFpJVWpSSndTU2QzTVV5a1JqR2hqVkR2MUVrT1JBPT0=&traceId=1",
+            "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_AV4?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y0VobEhDb3BJbE5TVi9ONmdTMDczWGxjZnhHRHJyenVmME5KTm9Sd1ZaU2hpQnMxbm94Rm1tUTd1RDVsQXdjSzNVK29Kb3N1LytiZ3pnblIramJEM0RoNG5zaDVpV0hVYUV5eVFvejlsM2J3PT0=&traceId=1",
+            "https://i.gadgets360cdn.com/large/iphone_14_pro_gold_1683696510783.jpg?downsize=950:*",
+            "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/Apple-iphone-15-pro-max-black-titanium-256gb-Back-Front-Back-Side-View-Image.png"
+          ],
+          "rating": 0,
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        },
+        {
+          "title": "Dior J'adore",
+          "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+          "category": "fragrances",
+          "price": 89.99,
+          "discountPercentage": 17.44,
+          "rating": 3.31,
+          "stock": 91,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Dior",
+          "sku": "E70NB03B",
+          "weight": 10,
+          "dimensions": {
+            "width": 21.51,
+            "height": 7,
+            "depth": 26.51
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Zoe Nicholson",
+              "reviewerEmail": "zoe.nicholson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Addison Wright",
+              "reviewerEmail": "addison.wright@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Clara Berry",
+              "reviewerEmail": "clara.berry@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 8,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "0887083199279",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1236.19,
+      "totalItems": 3,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "phone": "09205092724",
+        "street": "210/10 3rd floor Pandav road near Bheem lane",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 12
+    },
+    {
+      "items": [
+        {
+          "title": "Annibale Colombo Sofa",
+          "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+          "category": "furniture",
+          "price": 2499.99,
+          "discountPercentage": 18.54,
+          "rating": 3.08,
+          "stock": 16,
+          "tags": [
+            "furniture",
+            "sofas"
+          ],
+          "brand": "Annibale Colombo",
+          "sku": "LUU95CQP",
+          "weight": 3,
+          "dimensions": {
+            "width": 20.97,
+            "height": 19.11,
+            "depth": 25.81
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Tyler Davis",
+              "reviewerEmail": "tyler.davis@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Hannah Robinson",
+              "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "0426785817074",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 2036.49,
+      "totalItems": 1,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Tejas",
+        "email": "nimTejas@gmail.com",
+        "phone": "222514831",
+        "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pinCode": "400086"
+      },
+      "status": "pending",
+      "id": 13
+    },
+    {
+      "items": [
+        {
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 19.03,
+          "rating": 2.51,
+          "stock": 68,
+          "tags": [
+            "beauty",
+            "lipstick"
+          ],
+          "brand": "Chic Cosmetics",
+          "sku": "O5IF1NTA",
+          "weight": 5,
+          "dimensions": {
+            "width": 14.37,
+            "height": 13.94,
+            "depth": 14.6
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Leo Rivera",
+              "reviewerEmail": "leo.rivera@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Carter Rivera",
+              "reviewerEmail": "carter.rivera@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 6,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "9444582199406",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 10.52,
+      "totalItems": 1,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "phone": "9891254641",
+            "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+            "pinCode": "110032"
+          },
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "phone": "9891254641",
+        "street": "210/10 3rd floor, Pandav road, near Bheem gali",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 14
+    },
+    {
+      "items": [
+        {
+          "title": "Essence Mascara Lash Princess",
+          "description": "The Essence Mascara Lash Princess is a popular mascara ",
+          "category": "beauty",
+          "price": 244,
+          "discountPercentage": 7.17,
+          "rating": 0,
+          "stock": 5,
+          "tags": [
+            "beauty",
+            "mascara"
+          ],
+          "brand": "Essence",
+          "sku": "RCH45Q1A",
+          "weight": 2,
+          "dimensions": {
+            "width": 23.17,
+            "height": 14.43,
+            "depth": 28.01
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 month",
+          "availabilityStatus": "Low Stock",
+          "reviews": [
+            {
+              "rating": 2,
+              "comment": "Very unhappy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "John Doe",
+              "reviewerEmail": "john.doe@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Not as described!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Nolan Gonzalez",
+              "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Scarlett Wright",
+              "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 24,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "9164035109868",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+            null,
+            null,
+            null,
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+          "deleted": false,
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 226.51,
+      "totalItems": 1,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Tejas",
+        "email": "nimTejas@gmail.com",
+        "phone": "222514831",
+        "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pinCode": "400086"
+      },
+      "status": "pending",
+      "id": 15
+    },
+    {
+      "items": [
+        {
+          "title": "Lemon",
+          "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+          "category": "groceries",
+          "price": 0.79,
+          "discountPercentage": 17.81,
+          "rating": 4.25,
+          "stock": 0,
+          "tags": [
+            "fruits"
+          ],
+          "sku": "J074TE3H",
+          "weight": 10,
+          "dimensions": {
+            "width": 25.97,
+            "height": 27.47,
+            "depth": 6.31
+          },
+          "warrantyInformation": "3 year warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "Out of Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Lucas Gray",
+              "reviewerEmail": "lucas.gray@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Henry Hill",
+              "reviewerEmail": "henry.hill@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Elena Long",
+              "reviewerEmail": "elena.long@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "6364178053480",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/groceries/Lemon/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Lemon/thumbnail.png",
+          "quantity": 4,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 2.6,
+      "totalItems": 4,
+      "user": {
+        "email": "bhaawan27@gmail.com",
+        "password": "BShri@27",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Tejas",
+            "email": "nimTejas@gmail.com",
+            "phone": "222514831",
+            "street": "Altaf Nagar, Golibar Cross Road, Ghatkopar (west)",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "pinCode": "400086"
+          },
+          {
+            "name": "Bhaawan Shrivastav",
+            "email": "bhaawan27@gmail.com",
+            "phone": "09205092724",
+            "street": "210/10 3rd floor Pandav road near Bheem lane",
+            "city": "Shahdara",
+            "state": "Delhi",
+            "pinCode": "110032"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Bhaawan Shrivastav",
+        "email": "bhaawan27@gmail.com",
+        "phone": "09205092724",
+        "street": "210/10 3rd floor Pandav road near Bheem lane",
+        "city": "Shahdara",
+        "state": "Delhi",
+        "pinCode": "110032"
+      },
+      "status": "pending",
+      "id": 16
     }
   ]
 }

@@ -19,7 +19,6 @@ export function checkUser(loginInfo) {
 
     const response=await fetch('http://localhost:8080/users?email='+email);
     const result = await response.json();
-    console.log({result});
 
     if(result.length)
     {

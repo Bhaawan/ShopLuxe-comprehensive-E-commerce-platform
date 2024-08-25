@@ -15,6 +15,7 @@ import { useForm } from 'react-hook-form';
 import { selectLoggedInUser, updateUserAsync } from '../features/auth/authSlice';
 import { createOrderAsync, selectCurrentOrder } from '../features/order/orderSlice';
 import { selectUserInfo } from '../features/user/userSlice';
+import { discountedPrice } from '../app/constants';
 
 
 function CheckoutPage() {
@@ -23,7 +24,7 @@ function CheckoutPage() {
     const count = useSelector(selectItems);
     const items=useSelector(selectItems);
     const currentOrder=useSelector(selectCurrentOrder);
-    const totalAmount = items.reduce((amount, item) => item.price * item.quantity + amount,0);
+    const totalAmount = items.reduce((amount, item) => discountedPrice(item) * item.quantity + amount,0);
     const totalItems = items.reduce((total, item) => item.quantity + total, 0);
 
     const { register, handleSubmit, watch, reset, formState: { errors } } = useForm();
@@ -61,15 +62,15 @@ function CheckoutPage() {
             {items.length==0 && <Navigate to='/' replace={true}></Navigate>}
             {currentOrder && <Navigate to={`/order-success/${currentOrder.id}`} replace={true}></Navigate>}
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5 ml-3 mr-3">
-                    <div class="lg:col-span-3">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5 ml-3 mr-3">
+                    <div className="lg:col-span-3">
                         <form noValidate 
             onSubmit={handleSubmit((data)=>{
             dispatch(
                 updateUserAsync({...user,addresses:[...user.addresses,data]})
             );
             reset();
-          })} class="py-4 bg-white rounded-md my-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          })} className="py-4 bg-white rounded-md my-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                             <div className="space-y-12">
                                 <div className="border-b border-gray-900/10 pb-12">
                                 <h2 className="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
@@ -270,7 +271,7 @@ function CheckoutPage() {
                         </form>
                     </div>
                     <div className="lg:col-span-2">
-                    <div class="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-4">
+                    <div className="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-4">
         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Cart</h1>
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
             <div className="flow-root">
@@ -291,13 +292,13 @@ function CheckoutPage() {
                           <h3>
                             <a href={item.href}>{item.title}</a>
                           </h3>
-                          <p className="ml-4">${item.price}</p>
+                          <p className="ml-4">${discountedPrice(item)}</p>
                         </div>
                         <p className="mt-1 text-sm text-gray-500">{item.brand}</p>
                       </div>
                       <div className="flex flex-1 items-end justify-between text-sm">
                         <p className="text-gray-500">Quantity 
-                          <select onChange={(e)=>handleQuantity(e,item)} value={item.quantity} class="ml-3 rounded-lg bg-zinc-200 border-none">
+                          <select onChange={(e)=>handleQuantity(e,item)} value={item.quantity} className="ml-3 rounded-lg bg-zinc-200 border-none">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>

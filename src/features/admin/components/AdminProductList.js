@@ -4,7 +4,7 @@ import { ChevronLeftIcon, ChevronRightIcon, StarIcon } from '@heroicons/react/20
 import { Link } from 'react-router-dom';
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
-import {ITEMS_PER_PAGE} from '../../../app/constants.js';
+import {discountedPrice, ITEMS_PER_PAGE} from '../../../app/constants.js';
 
 import {
   Dialog,
@@ -440,14 +440,14 @@ function ProductGrid({products}){
             <div key={index}>
               <Link to={`/product-details/${product.id}`} key={product.id}>
                 <div key={product.id} className="group relative bg-sky-100 rounded-md p-2">
-                  <div className={`aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 ${product.deleted? 'opacity-50 group-hover:opacity-50' : ''}`}>
+                  <div className={`aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80 ${product.deleted? 'opacity-50 group-hover:opacity-50' : 'group-hover:opacity-75'}`}>
                     <img
                       src={product.thumbnail}
                       alt={product.imageAlt}
                       className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                     />
                   </div>
-                  <div className={`mt-4 flex justify-between ${product.deleted? 'opacity-50 group-hover:opacity-50' : ''}`}>
+                  <div className={`mt-4 flex justify-between ${product.deleted? 'opacity-20' : ''}`}>
                     <div>
                       <h3 className="text-sm text-gray-700">
                         <div href={product.href} className='font-semibold'>
@@ -459,7 +459,7 @@ function ProductGrid({products}){
                     </div>
                     <div className="flex flex-col items-end gap-0.5 w-max">
                       <p className="text-sm font-medium text-gray-600 line-through">${product.price}</p>
-                      <p className="text-lg font-medium text-gray-600">${(product.price*(1-(product.discountPercentage/100))).toFixed(2)}</p>
+                      <p className="text-lg font-medium text-gray-600">${discountedPrice(product)}</p>
                     </div>
                   </div>
                   {product.deleted && <div className='text-red-700 mt-4 font-semibold uppercase flex justify-center'>

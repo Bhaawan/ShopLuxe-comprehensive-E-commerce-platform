@@ -11,6 +11,7 @@ import {
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom';
+import { discountedPrice } from '../../app/constants';
 
 
 
@@ -20,7 +21,7 @@ export default function Cart() {
   
   const count = useSelector(selectItems);
   const items=useSelector(selectItems);
-  const totalAmount = items.reduce((amount, item) => item.price * item.quantity + amount,0);
+  const totalAmount = items.reduce((amount, item) => discountedPrice(item) * item.quantity + amount,0);
   const totalItems = items.reduce((total, item) => item.quantity + total, 0);
 
   const handleQuantity=(e,item)=>{
@@ -34,7 +35,7 @@ export default function Cart() {
   return (
     <>
       {items.length>0 && 
-      <div class="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Cart</h1>
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
             <div className="flow-root">
@@ -55,13 +56,13 @@ export default function Cart() {
                           <h3>
                             <a href={item.href}>{item.title}</a>
                           </h3>
-                          <p className="ml-4">${item.price}</p>
+                          <p className="ml-4">${discountedPrice(item)}</p>
                         </div>
                         <p className="mt-1 text-sm text-gray-500">{item.brand}</p>
                       </div>
                       <div className="flex flex-1 items-end justify-between text-sm">
                         <p className="text-gray-500">Quantity 
-                          <select onChange={(e)=>handleQuantity(e,item)} value={item.quantity} class="ml-3 rounded-lg bg-zinc-200 border-none">
+                          <select onChange={(e)=>handleQuantity(e,item)} value={item.quantity} className="ml-3 rounded-lg bg-zinc-200 border-none">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
