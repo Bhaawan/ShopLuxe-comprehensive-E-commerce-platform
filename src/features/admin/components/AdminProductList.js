@@ -100,7 +100,7 @@ export default function AdminProductList() {
 
   useEffect(()=>{
     const pagination={_page:page, _limit:ITEMS_PER_PAGE};
-    dispatch(fetchProductsByFilterAsync({filter,sort,pagination}))
+    dispatch(fetchProductsByFilterAsync({filter,sort,pagination,admin:true}))
 
   }, [dispatch,filter,sort,page]);
 
@@ -439,7 +439,7 @@ function ProductGrid({products}){
           {products.map((product,index) => (
             <div key={index}>
               <Link to={`/product-details/${product.id}`} key={product.id}>
-                <div key={product.id} className="group relative bg-sky-100 rounded-md p-2">
+                <div key={product.id} className={`group relative ${product.stock===0 ? 'bg-red-200':'bg-sky-100'} rounded-md p-2`}>
                   <div className={`aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80 ${product.deleted? 'opacity-50 group-hover:opacity-50' : 'group-hover:opacity-75'}`}>
                     <img
                       src={product.thumbnail}
@@ -465,6 +465,11 @@ function ProductGrid({products}){
                   {product.deleted && <div className='text-red-700 mt-4 font-semibold uppercase flex justify-center'>
                     <p>Product Deleted</p>
                   </div>}
+                  {product.stock===0 && (
+                  <div>
+                    <p className='text-[15px] font-semibold uppercase text-red-600 mt-2 text-center'>Out of stock</p>
+                  </div>
+                  )}
                 </div>
               </Link>
               <div className='flex justify-center hover:bg-indigo-500 items-center bg-indigo-600 mt-3 rounded-md text-white font-semibold text-[18px]'>

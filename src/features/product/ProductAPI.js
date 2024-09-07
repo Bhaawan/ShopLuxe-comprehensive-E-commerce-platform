@@ -1,13 +1,4 @@
 // A mock function to mimic making an async request for data
-export function fetchAllProducts() {
-  return new Promise(async (resolve) =>
-  {
-    const response=await fetch('http://localhost:8080/products');
-    const data = await response.json();
-    resolve({data});
-  }
-  );
-}
 
 export function fetchProductById(id) {
   return new Promise(async (resolve) =>
@@ -61,7 +52,7 @@ export function fetchAllBrands() {
   );
 }
 
-export function fetchProductsByFilters(filter,sort,pagination) {
+export function fetchProductsByFilters(filter,sort,pagination,admin) {
   let queryString='';
   for(let key in filter)
   {
@@ -80,12 +71,16 @@ export function fetchProductsByFilters(filter,sort,pagination) {
   for(let key in pagination){
     queryString+=`${key}=${pagination[key]}&`;
   }
+  if(admin)
+  {
+    queryString+=`admin=true`;
+  }
 
 
 
   return new Promise(async (resolve) =>
   {
-    const response=await fetch('http://localhost:8080/products?'+queryString);
+    const response=await fetch('http://localhost:8080/products?'+queryString+'isAdmin=true');
     const data = await response.json();
     const totalItems=await response.headers.get('X-Total-Count');
     resolve({data:{products:data,totalItems:+totalItems}});

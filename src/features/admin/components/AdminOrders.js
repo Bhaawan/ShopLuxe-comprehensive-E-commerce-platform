@@ -90,7 +90,7 @@ function AdminOrders() {
                         <tr key={index} className="border-b border-gray-200 hover:bg-gray-100">
                             <td className="py-3 px-6 text-left whitespace-nowrap">
                             <div className="flex items-center">
-                                <span className="font-medium text-xl"># {order.id}</span>
+                                <span className="font-medium text-md"># {order.id}</span>
                             </div>
                             </td>
                             <td className="py-3 px-6 text-left">
@@ -98,14 +98,15 @@ function AdminOrders() {
                                     <div className="mr-2">
                                     <img
                                         className="w-10 h-10 rounded-full"
-                                        src={item.thumbnail}
+                                        src={item.product.thumbnail}
+                                        alt={item.product.title}
                                     />
                                     </div>
-                                    <span className="font-semibold flex justify-center items-center gap-2">{item.title} 
+                                    <span className="font-semibold flex justify-center items-center gap-2">{item.product.title} 
                                     
                                     <span className="bg-blue-500 text-white font-semibold px-2 rounded-md text-[13px] py-0.3 text-center mt-1">QTY: {item.quantity}</span>
                                      
-                                    <span className="bg-green-500 text-white font-semibold px-2 rounded-md text-[13px] py-0.3 text-center mt-1">PRICE: ${discountedPrice(item)}</span>
+                                    <span className="bg-green-500 text-white font-semibold px-2 rounded-md text-[13px] py-0.3 text-center mt-1">PRICE: ${discountedPrice(item.product)}</span>
                                     </span>
                                 </div>)}
                             </td>
