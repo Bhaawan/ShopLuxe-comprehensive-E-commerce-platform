@@ -8,33 +8,33 @@ import { useForm } from 'react-hook-form';
 export default function UserProfile() {
   const { register, handleSubmit, watch, reset, setValue, formState: { errors } } = useForm();
   const dispatch = useDispatch();
-  const user=useSelector(selectUserInfo);
+  const userinfo=useSelector(selectUserInfo);
 
   const [selectedEditIndex, setselectedEditIndex] = useState(-1);
   const [showAddAddressForm, setshowAddAddressForm] = useState(false);
 
   const handleEdit=(newAddress, index)=>{
-    const newUser={...user,addresses:[...user.addresses]};
+    const newUser={...userinfo,addresses:[...userinfo.addresses]};
     newUser.addresses.splice(index,1,newAddress);
     dispatch(updateUserAsync(newUser))
     setselectedEditIndex(-1)
   }
 
   const handleRemove=(e,index)=>{
-    const newUser={...user,addresses:[...user.addresses]};
+    const newUser={...userinfo,addresses:[...userinfo.addresses]};
     newUser.addresses.splice(index,1);
     dispatch(updateUserAsync(newUser))
   }
 
   const handleAdd=(address)=>{
-    const newUser={...user,addresses:[...user.addresses, address]};
+    const newUser={...userinfo,addresses:[...userinfo.addresses, address]};
     dispatch(updateUserAsync(newUser))
     setshowAddAddressForm(false);
   }
 
   const handleEditForm=(index)=>{
     setselectedEditIndex(index);
-    const address=user.addresses[index];
+    const address=userinfo.addresses[index];
     setValue('name',address.name);
     setValue('email',address.email);
     setValue('city',address.city);
@@ -48,9 +48,9 @@ export default function UserProfile() {
   return (
     <div>
         <div className="bg-blue-200 rounded-md mt-5 mb-10 mx-1 max-w-9xl px-4 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Name: {user.name? user.name:"guest user"}</h1>
-            <h3 className="text-1xl capitalize font-semibold tracking-tight text-gray-900 pt-0 pb-3">Email address: {user.email}</h3>
-            {user.role==='admin'&&<h3 className="text-1xl uppercase font-semibold tracking-tight text-gray-900 pt-0 pb-3">{user.role}</h3>}
+            <h1 className="text-3xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Name: {userinfo.name? userinfo.name:"Guest user"}</h1>
+            <h3 className="text-1xl capitalize font-semibold tracking-tight text-gray-900 pt-0 pb-3">Email address: {userinfo.email}</h3>
+            {userinfo.role==='admin'&&<h3 className="text-1xl uppercase font-semibold tracking-tight text-gray-900 pt-0 pb-3">{userinfo.role}</h3>}
 
             <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
               
@@ -202,7 +202,7 @@ export default function UserProfile() {
                 </form> }
               
               <div className='text-base font-medium mt-5 text-gray-900'>Saved Address</div>
-              {user.addresses.map((address,index)=>
+              {userinfo.addresses.map((address,index)=>
                 <div key={index}>
                 
                 { selectedEditIndex===index && <form noValidate 

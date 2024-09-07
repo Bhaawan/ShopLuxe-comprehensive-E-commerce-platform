@@ -2,7 +2,7 @@
 export function createUser(userData) {
   return new Promise( async (resolve) =>
   {
-    const response=await fetch('http://localhost:8080/users',{method:'POST',body:JSON.stringify(userData), headers:{'content-type':'application/json'}});
+    const response=await fetch('http://localhost:8080/auth/signup',{method:'POST',body:JSON.stringify(userData), headers:{'content-type':'application/json'}});
     const result = await response.json();
     resolve({data:result});
 
@@ -14,27 +14,24 @@ export function createUser(userData) {
 export function checkUser(loginInfo) {
   return new Promise( async (resolve,reject) =>
   {
-    const email=loginInfo.email;
-    const password=loginInfo.password;
+    try{
+      const response=await fetch('http://localhost:8080/auth/login',{
+        method:'POST',body:JSON.stringify(loginInfo), headers:{'content-type':'application/json'}
+      });
 
-    const response=await fetch('http://localhost:8080/users?email='+email);
-    const result = await response.json();
+      if(response.ok)
+      {
+        const data = await response.json();
+        resolve({data});
+      }
+      else{
+        const error=await response.json();
+        reject(error);
+      }
+    }catch(error){
+      reject(error);
+    }
 
-    if(result.length)
-    {
-      if(password===result[0].password)
-      {
-        resolve({data:result[0]})
-      }
-      else
-      {
-        reject({message:'User found but password incorrect'});
-      }
-    }
-    else
-    {
-      reject({message:'User not found'});
-    }
 
   }
   );
