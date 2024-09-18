@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchLoggedInUserOrderAsync, selectUserInfo, selectUserOrders } from '../userSlice';
+import { fetchLoggedInUserOrderAsync, selectUserInfo, selectUserInfoStatus, selectUserOrders } from '../userSlice';
 import { discountedPrice } from '../../../app/constants';
 
 export default function UserOrders() {
   const dispatch = useDispatch();
-  const userinfo=useSelector(selectUserInfo);
   const orders=useSelector(selectUserOrders);
+  const status=useSelector(selectUserInfoStatus);
 
 
   useEffect(()=>{
-    dispatch(fetchLoggedInUserOrderAsync(userinfo.id));
-  },[dispatch, userinfo]);
+    dispatch(fetchLoggedInUserOrderAsync());
+  },[dispatch]);
 
   return (
   
     <div>
-      { orders.length>0 && 
+      { orders && 
         orders.map((order,index)=>
         (<div key={index}>
           <div className="bg-blue-200 rounded-md mt-5 mb-10 mx-1 max-w-9xl px-4 sm:px-6 lg:px-8">
@@ -87,7 +87,7 @@ export default function UserOrders() {
         </div>))
       }
       {
-        orders.length===0 && <div className="text-xl text-center font-semibold tracking-tight text-gray-900 pt-3 pb-3">No orders placed, Let's change that...😁😁</div>
+        orders.length===0 && <h1>No orders yet....</h1>
       }
     </div>
     

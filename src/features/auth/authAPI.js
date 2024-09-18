@@ -22,13 +22,21 @@ export function checkUser(loginInfo) {
       if(response.ok)
       {
         const data = await response.json();
+        console.log("great");
         resolve({data});
       }
       else{
-        const error=await response.json();
-        reject(error);
+        let errorData;
+        try {
+          errorData = await response.text();
+        } catch (e) {
+          errorData = { error: 'Something went wrong, please try again.' };
+        }
+        console.log('Error : ', errorData);
+        reject(errorData);
       }
     }catch(error){
+      console.log("error 2");
       reject(error);
     }
 

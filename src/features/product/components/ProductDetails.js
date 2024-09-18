@@ -36,7 +36,6 @@ export default function ProductDetails() {
   const [selectedSize, setSelectedSize] = useState(sizes[2])
   const product=useSelector(selectProductById);
   const items=useSelector(selectItems);
-  const user=useSelector(selectLoggedInUser)
   const dispatch=useDispatch();
   const params=useParams();
 
@@ -48,7 +47,7 @@ export default function ProductDetails() {
     e.preventDefault();
 
     if(items.findIndex(item=>item.product.id===product.id)<0){
-      const newItem={product:product.id,quantity:1,user:user.id};
+      const newItem={product:product.id,quantity:1};
       dispatch(addToCartAsync(newItem))
     }
     else{

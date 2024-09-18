@@ -10,10 +10,10 @@ export function addToCart(item) {
   );
 }
 
-export function fetchItemsAddedByUser(userId) {
+export function fetchItemsAddedByUser() {
   return new Promise(async (resolve) =>
   {
-    const response=await fetch('http://localhost:8080/cart?user='+userId);
+    const response=await fetch('http://localhost:8080/cart');
     const data = await response.json();
     resolve({data});
   }
@@ -44,10 +44,10 @@ export function deleteItemFromCart(itemId) {
   );
 }
 
-export function resetCart(userId) {
-
+export function resetCart() {
+ 
   return new Promise(async (resolve)=>{
-    const response=await fetchItemsAddedByUser(userId);
+    const response=await fetchItemsAddedByUser();
     const items=response.data;
     for(let item of items)
     {
