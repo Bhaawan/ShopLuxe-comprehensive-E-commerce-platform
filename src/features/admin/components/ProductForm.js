@@ -2,7 +2,7 @@ import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { useDispatch, useSelector } from 'react-redux';
 import { clearSelectedProduct, createProductAsync, fetchProductByIdAsync, selectAllBrands, selectAllCategories, selectProductById, selectTotalItems, updateProductAsync } from '../../product/ProductSlice';
 import { useForm } from 'react-hook-form';
-import { checkUserAsync } from '../../auth/authSlice';
+import { loginUserAsync } from '../../auth/authSlice';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 

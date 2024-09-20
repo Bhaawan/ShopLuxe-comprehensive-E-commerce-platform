@@ -87,7 +87,7 @@ export default function UserOrders() {
         </div>))
       }
       {
-        orders.length===0 && <h1>No orders yet....</h1>
+        !orders && (<h1>No orders yet....</h1>)
       }
     </div>
     

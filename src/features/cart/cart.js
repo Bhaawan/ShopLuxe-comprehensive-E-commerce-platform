@@ -4,6 +4,7 @@ import {
   deleteItemFromCartAsync,
   increment,
   incrementAsync,
+  selectCartLoaded,
   selectItems,
   updateCartAsync,
 } from './cartSlice';
@@ -21,6 +22,7 @@ export default function Cart() {
   
   const count = useSelector(selectItems);
   const items=useSelector(selectItems);
+  const cartLoaded=useSelector(selectCartLoaded);
   const totalAmount = items.reduce((amount, item) => discountedPrice(item.product) * item.quantity + amount,0);
   const totalItems = items.reduce((total, item) => item.quantity + total, 0);
 
@@ -34,7 +36,7 @@ export default function Cart() {
 
   return (
     <>
-      {items.length>0 && 
+      {items.length>0 && cartLoaded &&
       <div className="bg-white rounded-md mt-3 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 pt-3 pb-3">Cart</h1>
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">

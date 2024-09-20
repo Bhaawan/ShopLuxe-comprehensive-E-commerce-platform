@@ -19,7 +19,7 @@ import ProtectedAdmin from './features/auth/components/ProtectedAdmin.js';
 import PageNotFound from './pages/PageNotFound.js';
 import { fetchItemsAddedByUserAsync } from './features/cart/cartSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectLoggedInUser } from './features/auth/authSlice';
+import { checkAuthAsync, selectLoggedInUser, selectuserChecked } from './features/auth/authSlice';
 import OrderSuccessPage from './pages/OrderSuccessPage.js';
 import UserOrdersPage from './pages/UserOrdersPage.js';
 import UserProfile from './features/user/components/UserProfile.js'
@@ -141,6 +141,11 @@ function App() {
 
   const dispatch=useDispatch();
   const user=useSelector(selectLoggedInUser);
+  const userChecked=useSelector(selectuserChecked);
+
+  useEffect(()=>{
+    dispatch(checkAuthAsync());
+  },[])
 
   useEffect(()=>{
     if(user)
@@ -152,7 +157,7 @@ function App() {
   
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      {userChecked && <RouterProvider router={router} />}
     </div>
   );
 }
